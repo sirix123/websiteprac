@@ -14,43 +14,55 @@ h1, h2 ,h3 {
 	margin: 0;
 }
 
-#header {
+.LOGO {
 	background-color: #66CCFF;
 	color: white;
 	text-align: center;
 	padding: 10px;
-	margin: 10px auto;
-	height: 10%;
-	width: 80%;
-	border:solid;
-	border-color: 
-	border-width: 0px 0px 0px 0px;
-	clear: both;
 }
 
 #content{
 	padding: 10px;
 }
 
+.banner{
+	width: 100%;
+	display: block;
+}
+
+.banner > .banner-image{
+	width: 100%;
+	display: block;
+}
+
 #nav {
 	padding: 180px;
 	float: left;
-	padding: 0;
+	padding: 10px;
+	text-align: left;
 }
 
 #nav ul {
 	list-style-type: none;
-	padding: 0;
+	padding: 10px;
 }
 
 #nav .selected{
 	font-weight: bold;
 }
 
-#login {
+.usernameForm {
 	float: left;
 	text-align: left;
-	padding: 20px 20px 20px 20px;
+	padding: 0px;
+	width: 100px;
+}
+
+.passForm {
+	float: left;
+	text-align: left;
+	padding: 0px;
+	width: 100px;
 }
 
 
