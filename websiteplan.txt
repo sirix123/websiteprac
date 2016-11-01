@@ -1,0 +1,11 @@
+website plan
+
+features
+	login
+	pictures
+
+contents
+	banner
+	nav bar on left
+	login below or above nav
+	
