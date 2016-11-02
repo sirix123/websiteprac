@@ -1,8 +1,8 @@
 <!-- 
-HTML for Frontend Page Basic Structure (sends all html code)
+HTML for Frontend Page Basic Structure
 CSS is for Template Styling
 Javascript for Client side functionalities
-PHP for Server side functionalities (only sends result to client, hosting service needs to protect )
+PHP for Server side functionalities
 MYSQL is database engine 
 -->
 
@@ -78,3 +78,17 @@ MYSQL is database engine
 	</body>
 </html>
 
+<?php
+	$servername = "localhost";
+	$username = "username";
+	$password = "password";
+
+	// Create connection
+	$conn = new mysqli($servername, $username, $password);
+
+	// Check connection
+	if ($conn->connect_error) {
+   		die("Connection failed: " . $conn->connect_error);
+	} 
+	echo "Connected successfully";
+?>
